@@ -1,0 +1,501 @@
+﻿,words,words_label,intent_label
+0,آب و هوا  ابریه ,O O O O ,Get_Weather
+1,از  میدان نقش جهان تا  مدرسه هزینه  چند ریال میشه ,O B-Departure I-Departure I-Departure O B-Destination O O O O ,Catch_a_Cab
+2, پسفردا  درجه هوا در  اهواز  چقدر است ,B-Date O O O B-Location O O ,Get_Weather
+3,میخوام برای  میان وعده  چهار تا  هات داگ از  نزدیک ترین کافه سفارش بدم ,O O O O B-Number I-Number B-Food I-Food O B-Restaurant I-Restaurant I-Restaurant O O ,Order_Food
+4, یک عدد تاکسی میخوام که برم  میدان نقش جهان ,O O O O O O B-Destination I-Destination I-Destination ,Catch_a_Cab
+5,امروز در  مشهد  هوا  چه طوری است ,B-Date O B-Location O O O O ,Get_Weather
+6,میتونی برای ناهار  یک عدد  پیتزای یونانی سفارش بدی ,O O O B-Number I-Number B-Food I-Food O O ,Order_Food
+7,دیروز  پیش بینی هوا شناسی چطور بود ,B-Date O O O O O O ,Get_Weather
+8,میخوام یه  ترانه از  جنیفر لوپز بشنوم ,O O O O B-Artist I-Artist O ,Play_Music
+9, سه تا  کباب کوبیده از  رستوران ایتالیایی چقدره ,B-Number I-Number B-Food I-Food O B-Restaurant I-Restaurant O ,Order_Food
+10,میتونی یه  ترانه از  ریحانا پخش کنی ,O O O O B-Artist O O ,Play_Music
+11, پیش بینی هوا شناسی  چه جوریه ,O O O O O O ,Get_Weather
+12, برام  یه عدد  اسنپ بگیر تا  ونک ,O O O O O O B-Destination ,Catch_a_Cab
+13,میشه  یک آهنگ از  ابی بذاری ,O O O O B-Artist O ,Play_Music
+14, غمگین ترین  موسیقی  گروه کویین رو بذار ,O O O B-Artist I-Artist O O ,Play_Music
+15,میتونی بگی  پیش بینی آب و هوا  رم امروز چطوره ,O O O O O O O B-Location B-Date O ,Get_Weather
+16, یه عدد  ماشین خبر کن من رو ببره  هتل داریوش ,O O O O O O O O B-Destination I-Destination ,Catch_a_Cab
+17, پسفردا  طوفانی است ,B-Date O O ,Get_Weather
+18, ماشین از  بازار تهران تا  فرجام  چند تومنه ,O O B-Departure I-Departure O B-Destination O O ,Catch_a_Cab
+19,یک  تپسی کرایه کن از  رستوران روسی تا  هتل ,O O O O O B-Departure I-Departure O B-Destination ,Catch_a_Cab
+20,میتونی برام یک  آژانس بگیری تا  پل حافظ ,O O O O O O B-Destination I-Destination ,Catch_a_Cab
+21,میتونی برام یک  اسنپ بگیری تا  کرج ,O O O O O O B-Destination ,Catch_a_Cab
+22,تاکسی از  هتل تا  بازار موبایل  چنده ,O O B-Departure O B-Destination I-Destination O ,Catch_a_Cab
+23,برای ناهار از  نزدیک ترین رستوران یه  پیتزای مخلوط سفارش بده ,O O O B-Restaurant I-Restaurant I-Restaurant B-Number B-Food I-Food O O ,Order_Food
+24,از  رستوران ایتالیایی  یک عدد  پیتزای مخصوص سفارش بده ,O B-Restaurant I-Restaurant B-Number I-Number B-Food I-Food O O ,Order_Food
+25,از  رستوران ایتالیایی  دو تا  پاستای آلفردو سفارش بده ,O B-Restaurant I-Restaurant B-Number I-Number B-Food I-Food O O ,Order_Food
+26, همین حالا  آلوده است ,B-Date I-Date O O ,Get_Weather
+27, آژانس از  تجریش تا  پل خواجو  چنده ,O O B-Departure O B-Destination I-Destination O ,Catch_a_Cab
+28,میخواهم  چیزی  پرفروش گوش کنم ,O O O O O ,Play_Music
+29, یه دونه  اسنپ کرایه کن از  حرم امام رضا تا  دانشگاه امیرکبیر ,O O O O O O B-Departure I-Departure I-Departure O B-Destination I-Destination ,Catch_a_Cab
+30, سه شنبه بعد  هوا چطور است ,B-Date I-Date I-Date O O O ,Get_Weather
+31, یک عدد تاکسی میخوام تا من رو ببره  میدان نقش جهان ,O O O O O O O O B-Destination I-Destination I-Destination ,Catch_a_Cab
+32,یک  ماشین میخوام که برم  دانشگاه علم و صنعت ,O O O O O B-Destination I-Destination I-Destination I-Destination ,Catch_a_Cab
+33, یه دونه  ترانه  پرفروش پخش کن ,O O O O O O ,Play_Music
+34, چهارشنبه آینده  هوا  چیه ,B-Date I-Date O O ,Get_Weather
+35,میتونی  یک  چیز از  یاس پخش کنی ,O O O O B-Artist O O ,Play_Music
+36, یک عدد  اسنپ میخوام که برم  دانشگاه شریف ,O O O O O O B-Destination I-Destination ,Catch_a_Cab
+37,میشه برام  یه دونه  چیز از  آرش پخش کنی ,O O O O O O B-Artist O O ,Play_Music
+38,تا  بلوار نبوت میخوام تاکسی بگیرم ,O B-Destination I-Destination O O O ,Catch_a_Cab
+39,میتونی برای  شام یه  سالاد یونانی سفارش بدی ,O O O B-Number B-Food I-Food O O ,Order_Food
+40, شنبه قبل در  نیویورک آب و هوا  چه جوری بود ,B-Date I-Date O B-Location O O O O O O ,Get_Weather
+41,من برای  شام میخوام  سه تا  پیتزای مخلوط بخورم از  اژدر زاپاتا ,O O O O B-Number I-Number B-Food I-Food O O B-Restaurant I-Restaurant ,Order_Food
+42, دوشنبه گذشته  پیش بینی وضع هوا  چه طوری بود ,B-Date I-Date O O O O O O O ,Get_Weather
+43,هزینه تاکسی از  خانه تا  دانشگاه امیرکبیر  چنده ,O O O B-Departure O B-Destination I-Destination O ,Catch_a_Cab
+44, یه تاکسی خبر کن من رو ببره  پل خواجو ,O O O O O O O B-Destination I-Destination ,Catch_a_Cab
+45, پیش بینی آب و هوا  بارونیه ,O O O O O O ,Get_Weather
+46, سه شنبه بعد دما در  مشهد  چقدره ,B-Date I-Date I-Date O O B-Location O ,Get_Weather
+47,من برای  شام میخوام  چهار تا  پیتزای مخلوط بخورم از  نزدیک ترین غذافروشی ,O O O O B-Number I-Number B-Food I-Food O O B-Restaurant I-Restaurant I-Restaurant ,Order_Food
+48,لطفا برای ناهار از  اکبرجوجه  سه تا  پیتزای سبزیجات سفارش بده ,O O O O B-Restaurant B-Number I-Number B-Food I-Food O O ,Order_Food
+49, الان تهران آب و هوا  چه طوری است ,B-Date B-Location O O O O O O ,Get_Weather
+50, پیش بینی هوا شناسی  اصفهان را به من بگو ,O O O O B-Location O O O O ,Get_Weather
+51, پنجشنبه آینده  تگرگ می بارد ,B-Date I-Date O O O ,Get_Weather
+52, پیش بینی آب و هوا  بارانی است ,O O O O O O O ,Get_Weather
+53,لطفا برای  میان وعده از  رستوران ایتالیایی یه  سالاد سزار سفارش بده ,O O O O O B-Restaurant I-Restaurant B-Number B-Food I-Food O O ,Order_Food
+54, آژانس از اینجا تا  تهرانپارس  چقدر میشه ,O O B-Departure O B-Destination O O ,Catch_a_Cab
+55,میخوام برای ناهار  چهار تا پیتزا از  اکبرجوجه سفارش بدم ,O O O B-Number I-Number B-Food O B-Restaurant O O ,Order_Food
+56, پرفروش ترین آهنگ  ابی را پخش کن ,O O O B-Artist O O O ,Play_Music
+57, پیش بینی هوا شناسی  طوفانی است ,O O O O O O ,Get_Weather
+58,تا  محل کارم میخوام تاکسی بگیرم ,O B-Destination I-Destination O O O ,Catch_a_Cab
+59,لطفا از  نزدیک ترین رستوران برای  میان وعده  یه دونه  ماکارونی سفارش بده ,O O B-Restaurant I-Restaurant I-Restaurant O O O B-Number I-Number B-Food O O ,Order_Food
+60,برای ناهار از  ساندویچ آیدا  چهار تا  کباب کوبیده سفارش بده ,O O O B-Restaurant I-Restaurant B-Number I-Number B-Food I-Food O O ,Order_Food
+61, یک عدد  چلوکباب از  ساندویچ آیدا  چنده ,B-Number I-Number B-Food O B-Restaurant I-Restaurant O ,Order_Food
+62,میخواهم آهنگی  زیبا گوش کنم ,O O O O O ,Play_Music
+63,من میخواهم به  یک  موسیقی از  فریدون فرخزاد گوش کنم ,O O O O O O B-Artist I-Artist O O ,Play_Music
+64, پیش بینی هوا شناسی  چه طوری است ,O O O O O O O ,Get_Weather
+65, قیمت  چهار تا  جوجه کباب از  اژدر زاپاتا  چند میشه ,O B-Number I-Number B-Food I-Food O B-Restaurant I-Restaurant O O ,Order_Food
+66,میخوام  یه دونه  موسیقی  پرفروش از  گروه بیتلز بشنوم ,O O O O O O B-Artist I-Artist O ,Play_Music
+67,تا بازار تهران میخوام تاکسی بگیرم ,O B-Destination I-Destination O O O ,Catch_a_Cab
+68,میخوام یه  چیز  پرفروش از  گروه بیتلز بشنوم ,O O O O O B-Artist I-Artist O ,Play_Music
+69, یه دونه  ترانه  پرطرفدار پخش کن ,O O O O O O ,Play_Music
+70, پیش بینی هوا شناسی  ژوهانسبورگ  شنبه قبل  چی بود ,O O O O B-Location B-Date I-Date O O ,Get_Weather
+71,یک  ماشین خبر کن من رو ببره  پل خواجو ,O O O O O O O B-Destination I-Destination ,Catch_a_Cab
+72, هوا چطوره ,O O ,Get_Weather
+73, اسنپ از  دانشگاه علم و صنعت تا  دانشگاه علم و صنعت  چقدر است ,O O B-Departure I-Departure I-Departure I-Departure O B-Destination I-Destination I-Destination I-Destination O O ,Catch_a_Cab
+74,من برای  شام میخوام  یک عدد  پیتزای مخصوص بخورم از  رستوران بیست ,O O O O B-Number I-Number B-Food I-Food O O B-Restaurant I-Restaurant ,Order_Food
+75, برام  یه عدد تاکسی بگیر تا  موزه ملی ,O O O O O O B-Destination I-Destination ,Catch_a_Cab
+76,لطفا برای  شام  چهار تا  پیتزای سبزیجات سفارش بده ,O O O B-Number I-Number B-Food I-Food O O ,Order_Food
+77, برام یک  اسنپ بگیر تا  سهروردی ,O O O O O B-Destination ,Catch_a_Cab
+78, همین حالا در  ساری  پیش بینی آب و هوا چطوره ,B-Date I-Date O B-Location O O O O O O ,Get_Weather
+79,آهنگی از بهترین آلبوم  کامران و هومن پخش کن ,O O O O B-Artist I-Artist I-Artist O O ,Play_Music
+80,امروز  هوا چطوره ,B-Date O O ,Get_Weather
+81,میخوام برای ناهار  سه تا  کباب برگ از  رستوران سیب سفارش بدم ,O O O B-Number I-Number B-Food I-Food O B-Restaurant I-Restaurant O O ,Order_Food
+82,میخوام  یک  چیز  آرام از  گوگوش بشنوم ,O O O O O B-Artist O ,Play_Music
+83,لطفا  یه دونه  تپسی بگیر من رو ببره  فلکه گاز ,O O O O O O O O B-Destination I-Destination ,Catch_a_Cab
+84, پسفردا  درجه دما در  تبریز  چقدره ,B-Date O O O B-Location O ,Get_Weather
+85,میشه  یه دونه  ترانه از  ابی بذاری ,O O O O O B-Artist O ,Play_Music
+86,یه آلبوم  ترانه  محبوب پخش کن ,O O O O O O ,Play_Music
+87, پیش بینی وضع هوا  دمشق  پریروز  چی بود ,O O O O B-Location B-Date O O ,Get_Weather
+88,تا  دانشگاه تهران میخوام  تپسی بگیرم ,O B-Destination I-Destination O O O ,Catch_a_Cab
+89, فردا  توکیو  پیش بینی آب و هوا  چی است ,B-Date B-Location O O O O O O O ,Get_Weather
+90,برای من  یه  آژانس بگیر تا  خونه ,O O O O O O B-Destination ,Catch_a_Cab
+91, پرطرفدارترین  ترانه  یاس رو بذار ,O O B-Artist O O ,Play_Music
+92,لطفا برای  میان وعده یه  چلوکباب سلطانی سفارش بده ,O O O O B-Number B-Food I-Food O O ,Order_Food
+93,میتونی  یه دونه آهنگ از  گروه بیتلز پخش کنی ,O O O O O B-Artist I-Artist O O ,Play_Music
+94, شنبه بعد در  تبریز  پیش بینی آب و هوا چطوره ,B-Date I-Date O B-Location O O O O O O ,Get_Weather
+95,یک  آژانس خبر کن من رو ببره  خوابگاه ,O O O O O O O B-Destination ,Catch_a_Cab
+96,لطفا  یه دونه  آژانس بگیر من رو ببره  مدرسه ,O O O O O O O O B-Destination ,Catch_a_Cab
+97,میخوام  یه دونه  ترانه از  یاس بشنوم ,O O O O O B-Artist O ,Play_Music
+98,از  نزدیک ترین کافه یه  پیتزای پپرونی سفارش بده ,O B-Restaurant I-Restaurant I-Restaurant B-Number B-Food I-Food O O ,Order_Food
+99, یک  چیز شاد پخش کن ,O O O O O ,Play_Music
+100,دیروز در  ابوظبی  هوا  چگونه بود ,B-Date O B-Location O O O ,Get_Weather
+101,میتونی برای  میان وعده  یه دونه  چلوکباب سلطانی سفارش بدی ,O O O O B-Number I-Number B-Food I-Food O O ,Order_Food
+102,آب و هوا چطوره ,O O O O ,Get_Weather
+103,من  یک آهنگ  محبوب از  فریدون فرخزاد میخوام گوش بدم ,O O O O O B-Artist I-Artist O O O ,Play_Music
+104,هزینه  چهار تا  چلوکباب از  رستوران بیست  چقدر است ,O B-Number I-Number B-Food O B-Restaurant I-Restaurant O O ,Order_Food
+105,لطفا یه  موسیقی از  تیلور سویفت پخش کن ,O O O O B-Artist I-Artist O O ,Play_Music
+106, کرایه  تپسی از  فلکه گاز تا  حرم امام رضا  چند تومان است ,O O O B-Departure I-Departure O B-Destination I-Destination I-Destination O O O ,Catch_a_Cab
+107,میتونی  جدیدترین  موسیقی  کامران و هومن رو پخش کنی ,O O O B-Artist I-Artist I-Artist O O O ,Play_Music
+108, پیش بینی آب و هوا  برلین را به من بگو ,O O O O O B-Location O O O O ,Get_Weather
+109,میشه برام  یک  موسیقی از  ریحانا پخش کنی ,O O O O O B-Artist O O ,Play_Music
+110,میتونی برام  یک عدد تاکسی بگیری تا  دانشگاه شریف ,O O O O O O O B-Destination I-Destination ,Catch_a_Cab
+111, دمای هوا در  استانبول چند است ,O O O B-Location O O ,Get_Weather
+112, دمای در  سن پترزبورگ  چند درجه فارنهایت است ,O O B-Location I-Location O O O O ,Get_Weather
+113, پیش بینی هوا شناسی  میلان را به من بگو ,O O O O B-Location O O O O ,Get_Weather
+114, پیش بینی وضع هوا  کرج  بارانی است ,O O O O B-Location O O ,Get_Weather
+115,لطفا  موسیقی ای از  تیلور سویفت پخش کن ,O O O O B-Artist I-Artist O O ,Play_Music
+116, هوا  چه طوری است ,O O O O ,Get_Weather
+117,آب و هوا  قاهره  طوفانی است ,O O O B-Location O O ,Get_Weather
+118, ترانه ای از  غمگین ترین آلبوم  معین پخش کن ,O O O O O O B-Artist O O ,Play_Music
+119,آب و هوا  مسکو  بارانی است ,O O O B-Location O O ,Get_Weather
+120,تا  مترو ولیعصر میخوام  تپسی بگیرم ,O B-Destination I-Destination O O O ,Catch_a_Cab
+121, یکشنبه پیش در  سن پترزبورگ  پیش بینی وضع هوا چطور بود ,B-Date I-Date O B-Location I-Location O O O O O O ,Get_Weather
+122, درجه هوا  پسفردا در  ریاض چند است ,O O B-Date O B-Location O O ,Get_Weather
+123, کرایه اش  ماشین از  پل خواجو تا  دانشگاه  چند ریاله ,O O O O B-Departure I-Departure O B-Destination O O ,Catch_a_Cab
+124, پیش بینی هوا شناسی  چیه ,O O O O O ,Get_Weather
+125,لطفا برای  میان وعده  یک عدد  ماکارونی سفارش بده ,O O O O B-Number I-Number B-Food O O ,Order_Food
+126,امروز  هوا  چه جوریه ,B-Date O O O ,Get_Weather
+127,میشه از  نزدیک ترین کافه برای ناهار  یه دونه  پیتزای سبزیجات سفارش بدی ,O O B-Restaurant I-Restaurant I-Restaurant O O B-Number I-Number B-Food I-Food O O ,Order_Food
+128, پیش بینی هوا شناسی  ابری است ,O O O O O O ,Get_Weather
+129,میشه از  رستوران بیست برای  میان وعده  یه دونه  پیتزای مخلوط سفارش بدی ,O O B-Restaurant I-Restaurant O O O B-Number I-Number B-Food I-Food O O ,Order_Food
+130,لطفا برای  شام  یه دونه  ماکارونی سفارش بده ,O O O B-Number I-Number B-Food O O ,Order_Food
+131,لطفا  یه دونه  ماشین بگیر من رو ببره  تجریش ,O O O O O O O O B-Destination ,Catch_a_Cab
+132,برای ناهار از  رستوران سیب  دو تا  پیتزای مخصوص سفارش بده ,O O O B-Restaurant I-Restaurant B-Number I-Number B-Food I-Food O O ,Order_Food
+133,بهترین  موسیقی  شکیرا  رو پخش کن ,O O B-Artist O O O ,Play_Music
+134, چیزی از  پرطرفدارترین آلبوم  جنیفر لوپز پخش کن ,O O O O B-Artist I-Artist O O ,Play_Music
+135, یکشنبه آینده  یزد  هوا  چه طوری است ,B-Date I-Date B-Location O O O O ,Get_Weather
+136,میتونی  قدیمی ترین  چیز  معین رو پخش کنی ,O O O O B-Artist O O O ,Play_Music
+137,لطفا برای  شام یه  کباب برگ سفارش بده ,O O O B-Number B-Food I-Food O O ,Order_Food
+138, دوشنبه بعد  درجه دما در  قاهره چند است ,B-Date I-Date O O O B-Location O O ,Get_Weather
+139,برای  میان وعده از  نزدیک ترین رستوران  چهار تا  پیتزای مخلوط سفارش بده ,O O O O B-Restaurant I-Restaurant I-Restaurant B-Number I-Number B-Food I-Food O O ,Order_Food
+140,من  یه دونه  موسیقی شاد میخوام ,O O O O O O ,Play_Music
+141, هوا  ابری است ,O O O ,Get_Weather
+142, یه دونه  ترانه  پرانرژی پخش کن ,O O O O O O ,Play_Music
+143, چهار تا  کباب برگ سفارش بده ,B-Number I-Number B-Food I-Food O O ,Order_Food
+144, پس فردا  هوا  چه جوری است ,B-Date I-Date O O O O ,Get_Weather
+145, یکشنبه آینده  آفتابیه ,B-Date I-Date O ,Get_Weather
+146,میخوام  یک  ترانه از  کیتی پری بشنوم ,O O O O B-Artist I-Artist O ,Play_Music
+147, هوا  ابوظبی را به من بگو ,O B-Location O O O O ,Get_Weather
+148,میتونی یه آهنگ از  گروه کویین پخش کنی ,O O O O B-Artist I-Artist O O ,Play_Music
+149, موسیقی ای از  محبوب ترین آلبوم  گروه کویین پخش کن ,O O O O O O B-Artist I-Artist O O ,Play_Music
+150, یکشنبه آینده  دمای در  دوحه  چقدر است ,B-Date I-Date O O B-Location O O ,Get_Weather
+151, چهارشنبه آینده  منچستر آب و هوا  چه طوریه ,B-Date I-Date B-Location O O O O O ,Get_Weather
+152, یه دونه  جوجه کباب از  سیب 360  چند میشه ,B-Number I-Number B-Food I-Food O B-Restaurant I-Restaurant O O ,Order_Food
+153, کرایه اش  اسنپ از  محل کارم تا  هتل  چند ریال است ,O O O O B-Departure I-Departure O B-Destination O O O ,Catch_a_Cab
+154,از  بازار موبایل تا  میدان وکیل  هزینه اش  چند ریاله ,O B-Departure I-Departure O B-Destination I-Destination O O O O ,Catch_a_Cab
+155,یه  ترانه  زیبا از  یاس پخش کن ,O O O O B-Artist O O ,Play_Music
+156, پرطرفدارترین آهنگ  سال 1398 را پخش کن ,O O O O O O O ,Play_Music
+157,من  یک  ترانه شاد میخوام ,O O O O O ,Play_Music
+158,میتونی برام  یه عدد  تپسی بگیری تا  ایران مال ,O O O O O O O B-Destination I-Destination ,Catch_a_Cab
+159,من  یک آهنگ شاد از  مایکل جکسون میخوام گوش بدم ,O O O O O B-Artist I-Artist O O O ,Play_Music
+160, یه دونه  ترانه  پرطرفدار از  فرزاد فرزین پخش کن ,O O O O O B-Artist I-Artist O O ,Play_Music
+161, قدیمی ترین  چیز  مایلی سایرس رو بذار ,O O O B-Artist I-Artist O O ,Play_Music
+162, یکشنبه آینده برفیه ,B-Date I-Date O ,Get_Weather
+163, پیش بینی آب و هوا  ژوهانسبورگ  دوشنبه بعد  چه طوری است ,O O O O O B-Location B-Date I-Date O O O ,Get_Weather
+164, پیش بینی وضع هوا  توکیو  همین الان  چه طوری است ,O O O O B-Location B-Date I-Date O O O ,Get_Weather
+165,لطفا از  رستوران سیب برای  میان وعده یه  کباب برگ سفارش بده ,O O B-Restaurant I-Restaurant O O O B-Number B-Food I-Food O O ,Order_Food
+166,برای ناهار از  نزدیک ترین کافه یه  کباب برگ سفارش بده ,O O O B-Restaurant I-Restaurant I-Restaurant B-Number B-Food I-Food O O ,Order_Food
+167,لطفا  یه دونه  ترانه از  احسان خواجه امیری بذار ,O O O O O B-Artist I-Artist I-Artist O ,Play_Music
+168,از  شاهچراغ تا  فرجام  هزینه اش  چند ریاله ,O B-Departure O B-Destination O O O O ,Catch_a_Cab
+169,میتونی برای  میان وعده یه پیتزا سفارش بدی ,O O O O B-Number B-Food O O ,Order_Food
+170,میتونی بگی آب و هوا  دوبی  جمعه بعد چطوره ,O O O O O B-Location B-Date I-Date O ,Get_Weather
+171, چهارشنبه آینده در  واشنگتن  پیش بینی هوا شناسی چطوره ,B-Date I-Date O B-Location O O O O O ,Get_Weather
+172, درجه دما  پسفردا در  اصفهان  چقدر است ,O O B-Date O B-Location O O ,Get_Weather
+173,میشه از  رستوران ایتالیایی برای  میان وعده  چهار تا  چیزبرگر سفارش بدی ,O O B-Restaurant I-Restaurant O O O B-Number I-Number B-Food O O ,Order_Food
+174, فردا  لندن  پیش بینی آب و هوا  چیه ,B-Date B-Location O O O O O O ,Get_Weather
+175,لطفا از  نزدیک ترین کافه برای ناهار  یک عدد  پیتزای یونانی سفارش بده ,O O B-Restaurant I-Restaurant I-Restaurant O O B-Number I-Number B-Food I-Food O O ,Order_Food
+176,آب و هوا  بارونیه ,O O O O ,Get_Weather
+177, یک عدد  آژانس کرایه کن از  فرجام تا  هتل ,O O O O O O B-Departure O B-Destination ,Catch_a_Cab
+178, پرفروش ترین آهنگ  احسان خواجه امیری رو بذار ,O O O B-Artist I-Artist I-Artist O O ,Play_Music
+179,دیروز  هوا چطور بود ,B-Date O O O ,Get_Weather
+180,میشه برام یه آهنگ از  مایلی سایرس پخش کنی ,O O O O O B-Artist I-Artist O O ,Play_Music
+181,آب و هوا  تل آویو را به من بگو ,O O O B-Location I-Location O O O O ,Get_Weather
+182,لطفا یه  ترانه از  مایکل جکسون بذار ,O O O O B-Artist I-Artist O ,Play_Music
+183,لطفا برای  شام از  رستوران سیب  یه دونه  هات داگ سفارش بده ,O O O O B-Restaurant I-Restaurant B-Number I-Number B-Food I-Food O O ,Order_Food
+184,میتونی برام  یک عدد  تپسی بگیری تا  خانه ,O O O O O O O B-Destination ,Catch_a_Cab
+185,یه  جوجه کباب سفارش بده ,B-Number B-Food I-Food O O ,Order_Food
+186,لطفا برای ناهار  یه دونه  چلوکباب سلطانی سفارش بده ,O O O B-Number I-Number B-Food I-Food O O ,Order_Food
+187,بهترین  موسیقی  مایکل جکسون را پخش کن ,O O B-Artist I-Artist O O O ,Play_Music
+188,از  فرودگاه امام تا  هتل اسپسناس  هزینه اش  چند میشه ,O B-Departure I-Departure O B-Destination I-Destination O O O O ,Catch_a_Cab
+189,من  یک  ترانه  پرطرفدار میخوام ,O O O O O ,Play_Music
+190, هوا  توکیو  ابری است ,O B-Location O O ,Get_Weather
+191,میخوام برای ناهار  یه دونه  پیتزای سبزیجات از  نزدیک ترین رستوران سفارش بدم ,O O O B-Number I-Number B-Food I-Food O B-Restaurant I-Restaurant I-Restaurant O O ,Order_Food
+192, یک عدد  تپسی میخوام که برم  پل حافظ ,O O O O O O B-Destination I-Destination ,Catch_a_Cab
+193,لطفا آهنگی از  شماعی زاده پخش کن ,O O O B-Artist I-Artist O O ,Play_Music
+194,میتونی  پرفروش ترین  چیز  استاد شجریان رو پخش کنی ,O O O O B-Artist I-Artist O O O ,Play_Music
+195, دو تا  جوجه کباب سفارش بده ,B-Number I-Number B-Food I-Food O O ,Order_Food
+196, اسنپ از  همین جا تا  شاهچراغ  چند است ,O O B-Departure I-Departure O B-Destination O O ,Catch_a_Cab
+197,میتونی برای  میان وعده  دو تا پیتزا سفارش بدی ,O O O O B-Number I-Number B-Food O O ,Order_Food
+198, هوا  کرمان را به من بگو ,O B-Location O O O O ,Get_Weather
+199,من برای ناهار میخوام  یک عدد  ماکارونی بخورم از  رستوران سیب ,O O O O B-Number I-Number B-Food O O B-Restaurant I-Restaurant ,Order_Food
+200, تپسی از  ایران مال تا  ایل گلی  چند تومان است ,O O B-Departure I-Departure O B-Destination I-Destination O O O ,Catch_a_Cab
+201, شنبه بعد در  شانگهای  پیش بینی آب و هوا  چیه ,B-Date I-Date O B-Location O O O O O O ,Get_Weather
+202,میشه یه آهنگ از  استاد شجریان بذاری ,O O O O B-Artist I-Artist O ,Play_Music
+203,بهترین  موسیقی  شهرام ناظری را پخش کن ,O O B-Artist I-Artist O O O ,Play_Music
+204,من  چهار تا  پیتزای مخصوص از  نزدیک ترین رستوران میخوام ,O B-Number I-Number B-Food I-Food O B-Restaurant I-Restaurant I-Restaurant O ,Order_Food
+205,از  دانشگاه شریف تا  ایران مال  کرایه  چند ریال میشه ,O B-Departure I-Departure O B-Destination I-Destination O O O O ,Catch_a_Cab
+206,لطفا از  نزدیک ترین کافه برای  شام  یک عدد  چلوکباب سفارش بده ,O O B-Restaurant I-Restaurant I-Restaurant O O B-Number I-Number B-Food O O ,Order_Food
+207, غمگین ترین آهنگ  معین رو بذار ,O O O B-Artist O O ,Play_Music
+208, شنبه قبل در  دوحه  پیش بینی آب و هوا  چی بود ,B-Date I-Date O B-Location O O O O O O O ,Get_Weather
+209,لطفا از  نزدیک ترین کافه برای  شام یه  پیتزای پپرونی سفارش بده ,O O B-Restaurant I-Restaurant I-Restaurant O O B-Number B-Food I-Food O O ,Order_Food
+210,من میخواهم به  یک  موسیقی از  مایلی سایرس گوش کنم ,O O O O O O B-Artist I-Artist O O ,Play_Music
+211,میشه برام  یه دونه  چیز از  شهرام ناظری پخش کنی ,O O O O O O B-Artist I-Artist O O ,Play_Music
+212,من برای ناهار میخوام  چهار تا  ماکارونی بخورم از  سیب 360 ,O O O O B-Number I-Number B-Food O O B-Restaurant I-Restaurant ,Order_Food
+213, یه عدد  اسنپ میخوام تا من رو ببره  دانشگاه ,O O O O O O O O B-Destination ,Catch_a_Cab
+214,من یه  چیز  آرام از  شکیرا  میخوام گوش بدم ,O O O O O B-Artist O O O ,Play_Music
+215,لطفا برای  میان وعده از  اکبرجوجه  سه تا  همبرگر سفارش بده ,O O O O O B-Restaurant B-Number I-Number B-Food O O ,Order_Food
+216, پیش بینی هوا شناسی  آتن  شنبه قبل  چگونه بود ,O O O O B-Location B-Date I-Date O O ,Get_Weather
+217, درجه دما در  لندن  چقدر است ,O O O B-Location O O ,Get_Weather
+218,لطفا برای ناهار  چهار تا  ساندویچ سرد سفارش بده ,O O O B-Number I-Number B-Food I-Food O O ,Order_Food
+219, یه دونه  ماشین کرایه کن از  فرودگاه مهرآباد تا  دانشگاه امیرکبیر ,O O O O O O B-Departure I-Departure O B-Destination I-Destination ,Catch_a_Cab
+220,من  یه دونه آهنگ  غمگین میخوام ,O O O O O O ,Play_Music
+221,میخوام  یه دونه آهنگ  محبوب از  شکیرا  بشنوم ,O O O O O O B-Artist O ,Play_Music
+222,یک  اسنپ خبر کن من رو ببره  مدرسه ,O O O O O O O B-Destination ,Catch_a_Cab
+223, درجه هوا در  اصفهان چنده ,O O O B-Location O ,Get_Weather
+224, یک آلبوم آهنگ  محبوب پخش کن ,O O O O O O ,Play_Music
+225,میتونی  پرطرفدارترین آهنگ  جنیفر لوپز رو پخش کنی ,O O O B-Artist I-Artist O O O ,Play_Music
+226, درجه دما دیروز در  بغداد چند بود ,O O B-Date O B-Location O O ,Get_Weather
+227, برام  یک عدد  ماشین بگیر تا  ایل گلی ,O O O O O O B-Destination I-Destination ,Catch_a_Cab
+228,لطفا برای  شام  سه تا  ماکارونی سفارش بده ,O O O B-Number I-Number B-Food O O ,Order_Food
+229, پیش بینی آب و هوا  ابریه ,O O O O O O ,Get_Weather
+230, یه دونه  موسیقی از  گروه کویین پخش کن ,O O O O B-Artist I-Artist O O ,Play_Music
+231,لطفا  یک عدد  ماشین بگیر من رو ببره  سهروردی ,O O O O O O O O B-Destination ,Catch_a_Cab
+232,بهترین  موسیقی  جنیفر لوپز رو بذار ,O O B-Artist I-Artist O O ,Play_Music
+233,میتونی  شادترین  چیز  ابی رو پخش کنی ,O O O B-Artist O O O ,Play_Music
+234,میشه  یک  چیز از داریوش بذاری ,O O O O B-Artist O ,Play_Music
+235, یک آلبوم  موسیقی  زیبا پخش کن ,O O O O O O ,Play_Music
+236, یک  ترانه  پرفروش از  کیتی پری پخش کن ,O O O O B-Artist I-Artist O O ,Play_Music
+237,هزینه یه  پیتزای پپرونی از  نزدیک ترین رستوران چقدره ,O B-Number B-Food I-Food O B-Restaurant I-Restaurant I-Restaurant O ,Order_Food
+238,لطفا  یک عدد  ماشین بگیر من رو ببره  تهرانپارس ,O O O O O O O O B-Destination ,Catch_a_Cab
+239, یه دونه  ماشین خبر کن من رو ببره  فرجام ,O O O O O O O O B-Destination ,Catch_a_Cab
+240,لطفا آهنگی از داریوش پخش کن ,O O O B-Artist O O ,Play_Music
+241, شنبه قبل  پیش بینی وضع هوا  چگونه بود ,B-Date I-Date O O O O O O ,Get_Weather
+242, یک عدد  چلوکباب سلطانی از  نزدیک ترین رستوران  چقدر میشه ,B-Number I-Number B-Food I-Food O B-Restaurant I-Restaurant I-Restaurant O O ,Order_Food
+243,لطفا برای ناهار  چهار تا  سالاد سزار سفارش بده ,O O O B-Number I-Number B-Food I-Food O O ,Order_Food
+244,من  سه تا  همبرگر از  اژدر زاپاتا میخوام ,O B-Number I-Number B-Food O B-Restaurant I-Restaurant O ,Order_Food
+245, واسه من  یه  آژانس بگیر تا  دانشگاه علم و صنعت ,O O O O O O B-Destination I-Destination I-Destination I-Destination ,Catch_a_Cab
+246,هزینه  ماشین از  میدان وکیل تا  کافه سکوی نه و سه چهارم  چند تومن میشه ,O O O B-Departure I-Departure O B-Destination I-Destination I-Destination I-Destination I-Destination I-Destination O O O ,Catch_a_Cab
+247, درجه هوا  یکشنبه پیش در  کرج  چند درجه فارنهایت بود ,O O B-Date I-Date O B-Location O O O O ,Get_Weather
+248,میشه برام یه  چیز از  فرزاد فرزین پخش کنی ,O O O O O B-Artist I-Artist O O ,Play_Music
+249, پیش بینی وضع هوا  طوفانی است ,O O O O O O ,Get_Weather
+250, یه  آژانس میخوام که برم  میدان وکیل ,O O O O O B-Destination I-Destination ,Catch_a_Cab
+251, قیمت  دو تا  پیتزای مخصوص از  نزدیک ترین رستوران  چند هزار تومان می شود ,O B-Number I-Number B-Food I-Food O B-Restaurant I-Restaurant I-Restaurant O O O O O ,Order_Food
+252, پیش بینی آب و هوا  آتن  آفتابی است ,O O O O O B-Location O O ,Get_Weather
+253,میشه از  اژدر زاپاتا برای  شام  چهار تا  چیزبرگر سفارش بدی ,O O B-Restaurant I-Restaurant O O B-Number I-Number B-Food O O ,Order_Food
+254,میتونی برای  میان وعده  یک عدد  کباب کوبیده سفارش بدی ,O O O O B-Number I-Number B-Food I-Food O O ,Order_Food
+255,برای من یک  تپسی بگیر تا  خونه ,O O O O O O B-Destination ,Catch_a_Cab
+256,آب و هوا  استانبول  جمعه بعد  چه جوری است ,O O O B-Location B-Date I-Date O O O ,Get_Weather
+257, واسه من  یک عدد  آژانس بگیر تا  دانشگاه علم و صنعت ,O O O O O O O B-Destination I-Destination I-Destination I-Destination ,Catch_a_Cab
+258, پیش بینی وضع هوا  قاهره  دوشنبه گذشته چطور بود ,O O O O B-Location B-Date I-Date O O ,Get_Weather
+259, شنبه بعد باران می بارد ,B-Date I-Date O O O ,Get_Weather
+260,میشه  یک  چیز از  شکیرا  بذاری ,O O O O B-Artist O ,Play_Music
+261, یک عدد  سالاد سزار از  اکبرجوجه  چقدر میشه ,B-Number I-Number B-Food I-Food O B-Restaurant O O ,Order_Food
+262,لطفا  یک عدد  ماشین بگیر من رو ببره  ایل گلی ,O O O O O O O O B-Destination I-Destination ,Catch_a_Cab
+263,لطفا برای  شام از  نزدیک ترین رستوران  یه دونه  پیتزای یونانی سفارش بده ,O O O O B-Restaurant I-Restaurant I-Restaurant B-Number I-Number B-Food I-Food O O ,Order_Food
+264,من  دو تا  پیتزای سبزیجات از  اژدر زاپاتا میخوام ,O B-Number I-Number B-Food I-Food O B-Restaurant I-Restaurant O ,Order_Food
+265,میتونی برام  یه دونه تاکسی بگیری تا  خونه ,O O O O O O O B-Destination ,Catch_a_Cab
+266,لطفا از  اکبرجوجه برای  شام  سه تا  پیتزای مخصوص سفارش بده ,O O B-Restaurant O O B-Number I-Number B-Food I-Food O O ,Order_Food
+267,لطفا  یک  موسیقی از  هایده پخش کن ,O O O O B-Artist O O ,Play_Music
+268, جمعه بعد  آفتابی است ,B-Date I-Date O O ,Get_Weather
+269,آهنگی از  شادترین آلبوم  معین پخش کن ,O O O O B-Artist O O ,Play_Music
+270, یک  ترانه از  محسن چاووشی پخش کن ,O O O B-Artist I-Artist O O ,Play_Music
+271,تا  مدرسه میخوام  ماشین بگیرم ,O B-Destination O O O ,Catch_a_Cab
+272, یکشنبه پیش  بغداد  پیش بینی هوا شناسی  چگونه بود ,B-Date I-Date B-Location O O O O O O ,Get_Weather
+273,یک  تپسی کرایه کن از  دانشگاه تهران تا  میدان کرج ,O O O O O B-Departure I-Departure O B-Destination I-Destination ,Catch_a_Cab
+274, هوا  بارونیه ,O O ,Get_Weather
+275, پسفردا  تگرگ می بارد ,B-Date O O O ,Get_Weather
+276, یه دونه  چیزبرگر سفارش بده ,B-Number I-Number B-Food O O ,Order_Food
+277,از  رستوران سیب  دو تا  پیتزای پپرونی سفارش بده ,O B-Restaurant I-Restaurant B-Number I-Number B-Food I-Food O O ,Order_Food
+278,لطفا آهنگی از  فرزاد فرزین پخش کن ,O O O B-Artist I-Artist O O ,Play_Music
+279, جدیدترین آهنگ  شکیرا  رو پخش کن ,O O B-Artist O O O ,Play_Music
+280,لطفا برای  میان وعده از  ساندویچ آیدا یه  ماکارونی سفارش بده ,O O O O O B-Restaurant I-Restaurant B-Number B-Food O O ,Order_Food
+281,میشه  یه دونه  چیز از  معین بذاری ,O O O O O B-Artist O ,Play_Music
+282,میتونی برای  شام  چهار تا  همبرگر سفارش بدی ,O O O B-Number I-Number B-Food O O ,Order_Food
+283, ترانه ای از  پرفروش ترین آلبوم  کامران و هومن پخش کن ,O O O O O O B-Artist I-Artist I-Artist O O ,Play_Music
+284,من  یک آهنگ  آرام از  فریدون فرخزاد میخوام گوش بدم ,O O O O O B-Artist I-Artist O O O ,Play_Music
+285,میخوام برای  شام  یه دونه  کباب برگ از  سیب 360 سفارش بدم ,O O O B-Number I-Number B-Food I-Food O B-Restaurant I-Restaurant O O ,Order_Food
+286, دمای هوا دیروز در  توکیو  چند درجه سلیسیوس بود ,O O B-Date O B-Location O O O O ,Get_Weather
+287, کرایه اش  تپسی از  پل خواجو تا  ایل گلی  چند ریال است ,O O O O B-Departure I-Departure O B-Destination I-Destination O O O ,Catch_a_Cab
+288,من یه  فلافل از  رستوران سیب میخوام ,O B-Number B-Food O B-Restaurant I-Restaurant O ,Order_Food
+289, جدیدترین  چیز هفته را پخش کن ,O O O O O O ,Play_Music
+290, یه  آژانس میخوام تا من رو ببره  خوابگاه ,O O O O O O O B-Destination ,Catch_a_Cab
+291, یک عدد  چیزبرگر از  نزدیک ترین رستوران  چقدر است ,B-Number I-Number B-Food O B-Restaurant I-Restaurant I-Restaurant O O ,Order_Food
+292,از  مدرسه تا  فلکه گاز  قیمت   چند تومان است ,O B-Departure O B-Destination I-Destination O O O O ,Catch_a_Cab
+293, یه دونه  اسنپ کرایه کن از  شاهچراغ تا  پل حافظ ,O O O O O O B-Departure O B-Destination I-Destination ,Catch_a_Cab
+294,از  بلوار نبوت تا  مدرسه  کرایه  چند تومنه ,O B-Departure I-Departure O B-Destination O O O ,Catch_a_Cab
+295,من  یه دونه  چیز  پرفروش میخوام ,O O O O O O ,Play_Music
+296, همین الان در  پکن آب و هوا  چه طوریه ,B-Date I-Date O B-Location O O O O O ,Get_Weather
+297, سه شنبه بعد آب و هوا چطوره ,B-Date I-Date I-Date O O O O ,Get_Weather
+298,لطفا یه  ترانه از  اد شرن پخش کن ,O O O O B-Artist I-Artist O O ,Play_Music
+299,یک  اسنپ خبر کن من رو ببره  سهروردی ,O O O O O O O B-Destination ,Catch_a_Cab
+300,لطفا برای ناهار از  سیب 360  چهار تا  همبرگر سفارش بده ,O O O O B-Restaurant I-Restaurant B-Number I-Number B-Food O O ,Order_Food
+301,یه  چیز  جدید پخش کن ,O O O O O ,Play_Music
+302,یک  تپسی میخوام تا من رو ببره  اداره ,O O O O O O O B-Destination ,Catch_a_Cab
+303,میتونی برام یک تاکسی بگیری تا  کافه سکوی نه و سه چهارم ,O O O O O O B-Destination I-Destination I-Destination I-Destination I-Destination I-Destination ,Catch_a_Cab
+304,لطفا یک  اسنپ بگیر من رو ببره  مدرسه ,O O O O O O O B-Destination ,Catch_a_Cab
+305, همین الان باران می بارد ,B-Date I-Date O O O ,Get_Weather
+306, دوشنبه بعد  درجه دما در  استانبول  چقدره ,B-Date I-Date O O O B-Location O ,Get_Weather
+307,لطفا  یه عدد  ماشین بگیر من رو ببره  فرودگاه امام ,O O O O O O O O B-Destination I-Destination ,Catch_a_Cab
+308,یه  چلوکباب سفارش بده ,B-Number B-Food O O ,Order_Food
+309, محبوب ترین  موسیقی  گروه کویین رو بذار ,O O O B-Artist I-Artist O O ,Play_Music
+310,من  یک  چیز  غمگین از  یاس میخوام گوش بدم ,O O O O O B-Artist O O O ,Play_Music
+311,آب و هوا چطور است ,O O O O O ,Get_Weather
+312, هزینه اش  تپسی از  پل حافظ تا  رستوران روسی  چند تومن میشه ,O O O O B-Departure I-Departure O B-Destination I-Destination O O O ,Catch_a_Cab
+313,هزینه  تپسی از  دانشگاه تهران تا  دانشگاه خواجه نصیر الدین طوسی  چنده ,O O O B-Departure I-Departure O B-Destination I-Destination I-Destination I-Destination I-Destination O ,Catch_a_Cab
+314,برای  میان وعده از  نزدیک ترین رستوران  یه دونه  پیتزای سبزیجات سفارش بده ,O O O O B-Restaurant I-Restaurant I-Restaurant B-Number I-Number B-Food I-Food O O ,Order_Food
+315, همین الان برفیه ,B-Date I-Date O ,Get_Weather
+316,لطفا یه آهنگ از  احسان خواجه امیری پخش کن ,O O O O B-Artist I-Artist I-Artist O O ,Play_Music
+317, یک عدد  ماکارونی از  اکبرجوجه  چند تومان میشه ,B-Number I-Number B-Food O B-Restaurant O O O ,Order_Food
+318, یک عدد  ماشین میخوام تا من رو ببره  میدان نقش جهان ,O O O O O O O O B-Destination I-Destination I-Destination ,Catch_a_Cab
+319, یک عدد  آژانس خبر کن من رو ببره  باشگاه ,O O O O O O O O B-Destination ,Catch_a_Cab
+320,لطفا از  اژدر زاپاتا برای  میان وعده  چهار تا  سالاد سزار سفارش بده ,O O B-Restaurant I-Restaurant O O O B-Number I-Number B-Food I-Food O O ,Order_Food
+321,من میخواهم به یه آهنگ از  گروه بیتلز گوش کنم ,O O O O O O B-Artist I-Artist O O ,Play_Music
+322,هزینه  سه تا  چیزبرگر از  ساندویچ آیدا  چنده ,O B-Number I-Number B-Food O B-Restaurant I-Restaurant O ,Order_Food
+323,میتونی بگی  پیش بینی وضع هوا  پاریس  همین حالا چطوره ,O O O O O O B-Location B-Date I-Date O ,Get_Weather
+324,من برای  میان وعده میخوام  یک عدد  پیتزای پپرونی بخورم از  نزدیک ترین کافه ,O O O O O B-Number I-Number B-Food I-Food O O B-Restaurant I-Restaurant I-Restaurant ,Order_Food
+325, غمگین ترین  موسیقی  گروه بیتلز رو پخش کن ,O O O B-Artist I-Artist O O O ,Play_Music
+326,تا  سهروردی میخوام تاکسی بگیرم ,O B-Destination O O O ,Catch_a_Cab
+327,تا  هتل اسپسناس میخوام تاکسی بگیرم ,O B-Destination I-Destination O O O ,Catch_a_Cab
+328, یه دونه  تپسی میخوام که برم  خونه ,O O O O O O B-Destination ,Catch_a_Cab
+329,من  سه تا  پیتزای مخلوط از  نزدیک ترین کافه میخوام ,O B-Number I-Number B-Food I-Food O B-Restaurant I-Restaurant I-Restaurant O ,Order_Food
+330,دیروز  بغداد  پیش بینی هوا شناسی  چه طوری بود ,B-Date B-Location O O O O O O O ,Get_Weather
+331, یه دونه  همبرگر از  سیب 360  چقدر است ,B-Number I-Number B-Food O B-Restaurant I-Restaurant O O ,Order_Food
+332,من برای ناهار میخوام  یک عدد  همبرگر بخورم از  نزدیک ترین کافه ,O O O O B-Number I-Number B-Food O O B-Restaurant I-Restaurant I-Restaurant ,Order_Food
+333,میشه از  اکبرجوجه برای  شام  دو تا  پیتزای سبزیجات سفارش بدی ,O O B-Restaurant O O B-Number I-Number B-Food I-Food O O ,Order_Food
+334,من یه  فلافل از  رستوران ایتالیایی میخوام ,O B-Number B-Food O B-Restaurant I-Restaurant O ,Order_Food
+335,لطفا برای  میان وعده  یک عدد  پاستای آلفردو سفارش بده ,O O O O B-Number I-Number B-Food I-Food O O ,Order_Food
+336,میخوام برای ناهار  سه تا  کباب کوبیده از  رستوران بیست سفارش بدم ,O O O B-Number I-Number B-Food I-Food O B-Restaurant I-Restaurant O O ,Order_Food
+337, درجه هوا در  ملبورن  چند درجه فارنهایت است ,O O O B-Location O O O O ,Get_Weather
+338, یه عدد  آژانس کرایه کن از  دانشگاه خواجه نصیر الدین طوسی تا  بلوار نبوت ,O O O O O O B-Departure I-Departure I-Departure I-Departure I-Departure O B-Destination I-Destination ,Catch_a_Cab
+339,یک تاکسی میخوام تا من رو ببره  میدان کرج ,O O O O O O O B-Destination I-Destination ,Catch_a_Cab
+340,یه آلبوم  چیز  قدیمی پخش کن ,O O O O O O ,Play_Music
+341, محبوب ترین  موسیقی  سال 1399 را پخش کن ,O O O O O O O O ,Play_Music
+342, یه دونه  موسیقی  زیبا از  ابی پخش کن ,O O O O O B-Artist O O ,Play_Music
+343, اسنپ از  حرم امام رضا تا  فرودگاه مهرآباد  چند است ,O O B-Departure I-Departure I-Departure O B-Destination I-Destination O O ,Catch_a_Cab
+344,یه آلبوم  ترانه  پرانرژی پخش کن ,O O O O O O ,Play_Music
+345, یک عدد  اسنپ میخوام تا من رو ببره  مترو ولیعصر ,O O O O O O O O B-Destination I-Destination ,Catch_a_Cab
+346,میشه از  رستوران سیب برای  شام  چهار تا  ماکارونی سفارش بدی ,O O B-Restaurant I-Restaurant O O B-Number I-Number B-Food O O ,Order_Food
+347, فردا در  آتن آب و هوا  چه جوری است ,B-Date O B-Location O O O O O O ,Get_Weather
+348, شنبه قبل  اهواز  پیش بینی هوا شناسی  چه جوری بود ,B-Date I-Date B-Location O O O O O O O ,Get_Weather
+349, همین الان  هوا چطور است ,B-Date I-Date O O O ,Get_Weather
+350, یک  موسیقی از  فرزاد فرزین پخش کن ,O O O B-Artist I-Artist O O ,Play_Music
+351, محبوب ترین  چیز  دهه را پخش کن ,O O O O O O O ,Play_Music
+352,برای ناهار از  ساندویچ آیدا  یک عدد  پاستای آلفردو سفارش بده ,O O O B-Restaurant I-Restaurant B-Number I-Number B-Food I-Food O O ,Order_Food
+353,میتونی برای  شام  دو تا  سالاد یونانی سفارش بدی ,O O O B-Number I-Number B-Food I-Food O O ,Order_Food
+354, کرایه  ماشین از  پل خواجو تا  تجریش  چند است ,O O O B-Departure I-Departure O B-Destination O O ,Catch_a_Cab
+355, همین الان  برلین  پیش بینی آب و هوا چطور است ,B-Date I-Date B-Location O O O O O O O ,Get_Weather
+356, چهار تا  هات داگ سفارش بده ,B-Number I-Number B-Food I-Food O O ,Order_Food
+357, پسفردا  پیش بینی هوا شناسی  چه جوریه ,B-Date O O O O O O ,Get_Weather
+358, سه تا  کباب کوبیده سفارش بده ,B-Number I-Number B-Food I-Food O O ,Order_Food
+359,لطفا یه  چیز از  سیاوش قمیشی بذار ,O O O O B-Artist I-Artist O ,Play_Music
+360, پیش بینی هوا شناسی  دمشق  شنبه قبل چطور بود ,O O O O B-Location B-Date I-Date O O ,Get_Weather
+361, واسه من  یه دونه  اسنپ بگیر تا  دانشگاه شریف ,O O O O O O O B-Destination I-Destination ,Catch_a_Cab
+362, درجه دما دیروز در  اصفهان  چند درجه سلیسیوس بود ,O O B-Date O B-Location O O O O ,Get_Weather
+363,یه آلبوم آهنگ  پرطرفدار پخش کن ,O O O O O O ,Play_Music
+364, یه  اسنپ میخوام تا من رو ببره  باشگاه ,O O O O O O O B-Destination ,Catch_a_Cab
+365,تا  باشگاه میخوام  اسنپ بگیرم ,O B-Destination O O O ,Catch_a_Cab
+366,یه  ساندویچ سرد از  اکبرجوجه  چنده ,B-Number B-Food I-Food O B-Restaurant O ,Order_Food
+367, یه دونه  چلوکباب از  نزدیک ترین رستوران  چنده ,B-Number I-Number B-Food O B-Restaurant I-Restaurant I-Restaurant O ,Order_Food
+368,لطفا برای  شام از  نزدیک ترین غذافروشی  دو تا  جوجه کباب سفارش بده ,O O O O B-Restaurant I-Restaurant I-Restaurant B-Number I-Number B-Food I-Food O O ,Order_Food
+369, یکشنبه آینده  دمای هوا در  رم  چقدر است ,B-Date I-Date O O O B-Location O O ,Get_Weather
+370, درجه دما در  آتن  چقدره ,O O O B-Location O ,Get_Weather
+371, یک عدد  آژانس کرایه کن از  میدان نقش جهان تا  پل خواجو ,O O O O O O B-Departure I-Departure I-Departure O B-Destination I-Destination ,Catch_a_Cab
+372,من برای ناهار میخوام  یک عدد  کباب کوبیده بخورم از  اکبرجوجه ,O O O O B-Number I-Number B-Food I-Food O O B-Restaurant ,Order_Food
+373,من یه  ترانه شاد از  مایلی سایرس میخوام گوش بدم ,O O O O O B-Artist I-Artist O O O ,Play_Music
+374, یه دونه  کباب برگ سفارش بده ,B-Number I-Number B-Food I-Food O O ,Order_Food
+375,یه آهنگ  پرفروش از  گروه کویین پخش کن ,O O O O B-Artist I-Artist O O ,Play_Music
+376, دوشنبه گذشته  پیش بینی هوا شناسی  چگونه بود ,B-Date I-Date O O O O O O ,Get_Weather
+377, پریروز  پیش بینی هوا شناسی  چگونه بود ,B-Date O O O O O O ,Get_Weather
+378,از  نزدیک ترین کافه  دو تا  پیتزای پپرونی سفارش بده ,O B-Restaurant I-Restaurant I-Restaurant B-Number I-Number B-Food I-Food O O ,Order_Food
+379, دوشنبه بعد  تگرگ می بارد ,B-Date I-Date O O O ,Get_Weather
+380,آب و هوا  اصفهان  فردا  چی است ,O O O B-Location B-Date O O ,Get_Weather
+381, پس فردا در  قاهره  پیش بینی آب و هوا  چگونه است ,B-Date I-Date O B-Location O O O O O O O ,Get_Weather
+382, درجه هوا  جمعه بعد در  دمشق  چقدر است ,O O B-Date I-Date O B-Location O O ,Get_Weather
+383,از  رستوران سیب  دو تا  جوجه کباب سفارش بده ,O B-Restaurant I-Restaurant B-Number I-Number B-Food I-Food O O ,Order_Food
+384,یک  تپسی خبر کن من رو ببره  دانشگاه علم و صنعت ,O O O O O O O B-Destination I-Destination I-Destination I-Destination ,Catch_a_Cab
+385,من  سه تا  چیزبرگر از  اژدر زاپاتا میخوام ,O B-Number I-Number B-Food O B-Restaurant I-Restaurant O ,Order_Food
+386,از  دانشگاه علم و صنعت تا  حرم امام رضا  هزینه اش  چند تومان است ,O B-Departure I-Departure I-Departure I-Departure O B-Destination I-Destination I-Destination O O O O O ,Catch_a_Cab
+387, غمگین ترین  موسیقی  کامران و هومن را پخش کن ,O O O B-Artist I-Artist I-Artist O O O ,Play_Music
+388,میتونی بگی  پیش بینی آب و هوا  یزد  شنبه بعد چطوره ,O O O O O O O B-Location B-Date I-Date O ,Get_Weather
+389, جدیدترین  چیز  یاس را پخش کن ,O O B-Artist O O O ,Play_Music
+390,من میخواهم به  یه دونه  ترانه از  جنیفر لوپز گوش کنم ,O O O O O O O B-Artist I-Artist O O ,Play_Music
+391, یک عدد  فلافل از  رستوران ایتالیایی  چند ریال می شود ,B-Number I-Number B-Food O B-Restaurant I-Restaurant O O O O ,Order_Food
+392,میتونی یه  چیز از  اد شرن پخش کنی ,O O O O B-Artist I-Artist O O ,Play_Music
+393,یک  ماشین میخوام تا من رو ببره  کافه سکوی نه و سه چهارم ,O O O O O O O B-Destination I-Destination I-Destination I-Destination I-Destination I-Destination ,Catch_a_Cab
+394,لطفا  یه دونه  ترانه از  هایده بذار ,O O O O O B-Artist O ,Play_Music
+395,تاکسی از  بازار موبایل تا  حرم امام رضا  چند تومان است ,O O B-Departure I-Departure O B-Destination I-Destination I-Destination O O O ,Catch_a_Cab
+396, چهارشنبه آینده  آفتابی است ,B-Date I-Date O O ,Get_Weather
+397,یک  تپسی میخوام تا من رو ببره  سهروردی ,O O O O O O O B-Destination ,Catch_a_Cab
+398,هزینه  سه تا  هات داگ از رستوران ارکید  چند ریال می شود ,O B-Number I-Number B-Food I-Food O B-Restaurant I-Restaurant O O O O ,Order_Food
+399, قیمت   آژانس از  خونه تا  شاهچراغ  چند ریال است ,O O O B-Departure O B-Destination O O O ,Catch_a_Cab
+400, دوشنبه گذشته  ژوهانسبورگ  پیش بینی آب و هوا  چه جوری بود ,B-Date I-Date B-Location O O O O O O O O ,Get_Weather
+401, دمای  پنجشنبه آینده در  کرمان  چقدر است ,O B-Date I-Date O B-Location O O ,Get_Weather
+402, محبوب ترین آهنگ  مهستی را پخش کن ,O O O B-Artist O O O ,Play_Music
+403,یک  تپسی کرایه کن از  شاهچراغ تا  میدان نقش جهان ,O O O O O B-Departure O B-Destination I-Destination I-Destination ,Catch_a_Cab
+404,از  موزه ملی تا بازار تهران  کرایه اش  چند تومن میشه ,O B-Departure I-Departure O B-Destination I-Destination O O O O O ,Catch_a_Cab
+405,لطفا از  ساندویچ آیدا برای  میان وعده  دو تا  فلافل سفارش بده ,O O B-Restaurant I-Restaurant O O O B-Number I-Number B-Food O O ,Order_Food
+406, یک  ترانه از  جنیفر لوپز پخش کن ,O O O B-Artist I-Artist O O ,Play_Music
+407,لطفا یه  موسیقی از  جنیفر لوپز پخش کن ,O O O O B-Artist I-Artist O O ,Play_Music
+408,تا  فرجام میخوام  تپسی بگیرم ,O B-Destination O O O ,Catch_a_Cab
+409, اسنپ از  کافه سکوی نه و سه چهارم تا  خونه  چند است ,O O B-Departure I-Departure I-Departure I-Departure I-Departure I-Departure O B-Destination O O ,Catch_a_Cab
+410, شادترین  ترانه  سال 2020 را پخش کن ,O O O O O O O ,Play_Music
+411, برام  یه  تپسی بگیر تا  هتل داریوش ,O O O O O B-Destination I-Destination ,Catch_a_Cab
+412,هزینه  تپسی از  پل حافظ تا  فلکه گاز  چند ریاله ,O O O B-Departure I-Departure O B-Destination I-Destination O O ,Catch_a_Cab
+413,هزینه  یه دونه  فلافل از  رستوران ایتالیایی  چند ریال می شود ,O B-Number I-Number B-Food O B-Restaurant I-Restaurant O O O O ,Order_Food
+414, شادترین آهنگ  احسان خواجه امیری را پخش کن ,O O B-Artist I-Artist I-Artist O O O ,Play_Music
+415, دو تا  فلافل از  رستوران بیست  چند ریال می شود ,B-Number I-Number B-Food O B-Restaurant I-Restaurant O O O O ,Order_Food
+416, یک عدد  اسنپ میخوام تا من رو ببره  رستوران روسی ,O O O O O O O O B-Destination I-Destination ,Catch_a_Cab
+417, شنبه بعد  پیش بینی آب و هوا  چی است ,B-Date I-Date O O O O O O O ,Get_Weather
+418,میتونی برای  شام  دو تا  چلوکباب سفارش بدی ,O O O B-Number I-Number B-Food O O ,Order_Food
+419,دما  یکشنبه آینده در  میلان  چند درجه فارنهایت است ,O B-Date I-Date O B-Location O O O O ,Get_Weather
+420,میشه از  اژدر زاپاتا برای  شام یه  سالاد سزار سفارش بدی ,O O B-Restaurant I-Restaurant O O B-Number B-Food I-Food O O ,Order_Food
+421,از  نزدیک ترین کافه  یه دونه  پیتزای مخصوص سفارش بده ,O B-Restaurant I-Restaurant I-Restaurant B-Number I-Number B-Food I-Food O O ,Order_Food
+422, یکشنبه پیش  بغداد  پیش بینی وضع هوا چطور بود ,B-Date I-Date B-Location O O O O O O ,Get_Weather
+423,میخوام برای ناهار  یک عدد  پیتزای سبزیجات از  رستوران بیست سفارش بدم ,O O O B-Number I-Number B-Food I-Food O B-Restaurant I-Restaurant O O ,Order_Food
+424,میشه از  نزدیک ترین کافه برای  شام  سه تا  پیتزای سبزیجات سفارش بدی ,O O B-Restaurant I-Restaurant I-Restaurant O O B-Number I-Number B-Food I-Food O O ,Order_Food
+425, قیمت  سه تا  کباب کوبیده از  اکبرجوجه  چند هزار تومان می شود ,O B-Number I-Number B-Food I-Food O B-Restaurant O O O O O ,Order_Food
+426, یه عدد تاکسی میخوام که برم  موزه ملی ,O O O O O O B-Destination I-Destination ,Catch_a_Cab
+427,میتونی برای ناهار  دو تا  پاستای آلفردو سفارش بدی ,O O O B-Number I-Number B-Food I-Food O O ,Order_Food
+428,بهترین  چیز  سال 1399 را پخش کن ,O O O O O O O ,Play_Music
+429, پنجشنبه آینده  درجه دما در  اهواز  چند درجه فارنهایت است ,B-Date I-Date O O O B-Location O O O O ,Get_Weather
+430,لطفا آهنگی از  گروه آریان پخش کن ,O O O B-Artist I-Artist O O ,Play_Music
+431, آژانس از  باشگاه تا  تجریش  چنده ,O O B-Departure O B-Destination O ,Catch_a_Cab
+432,یه  چیز  پرانرژی پخش کن ,O O O O O ,Play_Music
+433,میتونی  پرطرفدارترین آهنگ داریوش رو پخش کنی ,O O O B-Artist O O O ,Play_Music
+434, یه  ماشین میخوام که برم  ایل گلی ,O O O O O B-Destination I-Destination ,Catch_a_Cab
+435, درجه هوا دیروز در  تل آویو  چند درجه سلیسیوس بود ,O O B-Date O B-Location I-Location O O O O ,Get_Weather
+436,میتونی برام  یه  ماشین بگیری تا  خانه ,O O O O O O B-Destination ,Catch_a_Cab
+437, واسه من  یه  آژانس بگیر تا  محل کارم ,O O O O O O B-Destination I-Destination ,Catch_a_Cab
+438,من برای ناهار میخوام  سه تا  پیتزای مخلوط بخورم از  اکبرجوجه ,O O O O B-Number I-Number B-Food I-Food O O B-Restaurant ,Order_Food
+439,من  یک عدد پیتزا از  ساندویچ آیدا میخوام ,O B-Number I-Number B-Food O B-Restaurant I-Restaurant O ,Order_Food
+440, یه  تپسی میخوام که برم  میدان امام خمینی ,O O O O O B-Destination I-Destination I-Destination ,Catch_a_Cab
+441, سه شنبه بعد  پیش بینی وضع هوا چطور است ,B-Date I-Date I-Date O O O O O O ,Get_Weather
+442,یک  تپسی کرایه کن از  فلکه گاز تا  ایل گلی ,O O O O O B-Departure I-Departure O B-Destination I-Destination ,Catch_a_Cab
+443,میتونی برام  یه عدد  ماشین بگیری تا  میدان کرج ,O O O O O O O B-Destination I-Destination ,Catch_a_Cab
+444,میشه برام  یک  چیز از  گروه کویین پخش کنی ,O O O O O B-Artist I-Artist O O ,Play_Music
+445,از  کافه سکوی نه و سه چهارم تا  بازار موبایل  کرایه اش  چقدر است ,O B-Departure I-Departure I-Departure I-Departure I-Departure I-Departure O B-Destination I-Destination O O O O ,Catch_a_Cab
+446, یه عدد  ماشین میخوام که برم  هتل اسپسناس ,O O O O O O B-Destination I-Destination ,Catch_a_Cab
+447, قیمت   تپسی از  دانشگاه امیرکبیر تا  دانشگاه علم و صنعت  چنده ,O O O B-Departure I-Departure O B-Destination I-Destination I-Destination I-Destination O ,Catch_a_Cab
+448, پرفروش ترین  ترانه  ریحانا رو پخش کن ,O O O B-Artist O O O ,Play_Music
+449, پس فردا  طوفانیه ,B-Date I-Date O ,Get_Weather
+450,میتونی یه  ترانه از داریوش پخش کنی ,O O O O B-Artist O O ,Play_Music
+451, یه عدد  تپسی میخوام تا من رو ببره  دانشگاه تهران ,O O O O O O O O B-Destination I-Destination ,Catch_a_Cab
+452, پس فردا  میلان  پیش بینی وضع هوا  چه جوریه ,B-Date I-Date B-Location O O O O O O ,Get_Weather
+453, پیش بینی هوا شناسی  مسکو دیروز  چی بود ,O O O O B-Location B-Date O O ,Get_Weather
+454, ماشین از  هتل تا  ونک  چند تومنه ,O O B-Departure O B-Destination O O ,Catch_a_Cab
+455, پیش بینی آب و هوا برفی است ,O O O O O O O ,Get_Weather
+456,لطفا از  ساندویچ آیدا برای ناهار  یک عدد  چیزبرگر سفارش بده ,O O B-Restaurant I-Restaurant O O B-Number I-Number B-Food O O ,Order_Food
+457, پیش بینی وضع هوا  دوبی  شنبه بعد  چی است ,O O O O B-Location B-Date I-Date O O ,Get_Weather
+458,لطفا  یه دونه  ماشین بگیر من رو ببره  رستوران روسی ,O O O O O O O O B-Destination I-Destination ,Catch_a_Cab
+459, واسه من یک تاکسی بگیر تا  فرودگاه امام ,O O O O O O B-Destination I-Destination ,Catch_a_Cab
+460,میشه از  رستوران بیست برای  شام یه پیتزا سفارش بدی ,O O B-Restaurant I-Restaurant O O B-Number B-Food O O ,Order_Food
+461,لطفا از رستوران ارکید برای  شام  یه دونه  فلافل سفارش بده ,O O B-Restaurant I-Restaurant O O B-Number I-Number B-Food O O ,Order_Food
+462,یه  هات داگ سفارش بده ,B-Number B-Food I-Food O O ,Order_Food
+463, الان  بارونیه ,B-Date O ,Get_Weather
+464,لطفا برای  میان وعده از  نزدیک ترین کافه  یک عدد  چلوکباب سلطانی سفارش بده ,O O O O O B-Restaurant I-Restaurant I-Restaurant B-Number I-Number B-Food I-Food O O ,Order_Food
+465,میتونی برام  یه  اسنپ بگیری تا  دانشگاه تهران ,O O O O O O B-Destination I-Destination ,Catch_a_Cab
+466, پنجشنبه آینده  طوفانیه ,B-Date I-Date O ,Get_Weather
+467,یه  چیز  محبوب از  کامران و هومن پخش کن ,O O O O B-Artist I-Artist I-Artist O O ,Play_Music
+468,میخواهم  ترانه ای  آرام گوش کنم ,O O O O O O ,Play_Music
+469,لطفا  یک  چیز از  مایکل جکسون پخش کن ,O O O O B-Artist I-Artist O O ,Play_Music
+470, پنجشنبه آینده  کرج آب و هوا  چه طوریه ,B-Date I-Date B-Location O O O O O ,Get_Weather
+471,دما در  کرمان چند است ,O O B-Location O O ,Get_Weather
+472,یک  تپسی خبر کن من رو ببره  مدرسه ,O O O O O O O B-Destination ,Catch_a_Cab
+473,هزینه  یک عدد  جوجه کباب از  رستوران ایتالیایی  چند میشه ,O B-Number I-Number B-Food I-Food O B-Restaurant I-Restaurant O O ,Order_Food
+474,میخواهم  چیزی شاد گوش کنم ,O O O O O ,Play_Music
+475,از  رستوران سیب  یک عدد  هات داگ سفارش بده ,O B-Restaurant I-Restaurant B-Number I-Number B-Food I-Food O O ,Order_Food
+476, سه تا  کباب برگ سفارش بده ,B-Number I-Number B-Food I-Food O O ,Order_Food
+477,لطفا  یه عدد  آژانس بگیر من رو ببره  خوابگاه ,O O O O O O O O B-Destination ,Catch_a_Cab
+478, قیمت  دو تا  ساندویچ سرد از  نزدیک ترین کافه  چند هزار تومان می شود ,O B-Number I-Number B-Food I-Food O B-Restaurant I-Restaurant I-Restaurant O O O O O ,Order_Food
+479, یه دونه  تپسی میخوام که برم  رستوران روسی ,O O O O O O B-Destination I-Destination ,Catch_a_Cab
+480,میشه از  نزدیک ترین رستوران برای ناهار  چهار تا  فلافل سفارش بدی ,O O B-Restaurant I-Restaurant I-Restaurant O O B-Number I-Number B-Food O O ,Order_Food
+481,میخوام  یه دونه آهنگ از  محسن چاووشی بشنوم ,O O O O O B-Artist I-Artist O ,Play_Music
+482,میتونی  یه دونه  چیز از  شماعی زاده پخش کنی ,O O O O O B-Artist I-Artist O O ,Play_Music
+483,میخوام برای  میان وعده یه  پیتزای مخصوص از  نزدیک ترین رستوران سفارش بدم ,O O O O B-Number B-Food I-Food O B-Restaurant I-Restaurant I-Restaurant O O ,Order_Food
+484,لطفا برای  میان وعده از  سیب 360  یک عدد  پیتزای یونانی سفارش بده ,O O O O O B-Restaurant I-Restaurant B-Number I-Number B-Food I-Food O O ,Order_Food
+485,لطفا  یه  تپسی بگیر من رو ببره  مترو ولیعصر ,O O O O O O O B-Destination I-Destination ,Catch_a_Cab
+486, پیش بینی وضع هوا  چه جوری است ,O O O O O O O ,Get_Weather
+487, شنبه قبل در  ریاض  هوا  چه طوری بود ,B-Date I-Date O B-Location O O O O ,Get_Weather
+488,برای  میان وعده از  اکبرجوجه  یه دونه  پیتزای پپرونی سفارش بده ,O O O O B-Restaurant B-Number I-Number B-Food I-Food O O ,Order_Food
+489,من یه  سالاد یونانی از  نزدیک ترین غذافروشی میخوام ,O B-Number B-Food I-Food O B-Restaurant I-Restaurant I-Restaurant O ,Order_Food
+490,میشه از  نزدیک ترین غذافروشی برای  میان وعده  چهار تا  جوجه کباب سفارش بدی ,O O B-Restaurant I-Restaurant I-Restaurant O O O B-Number I-Number B-Food I-Food O O ,Order_Food
+491, شادترین  موسیقی  محسن چاووشی رو پخش کن ,O O B-Artist I-Artist O O O ,Play_Music
+492,میخواهم  چیزی  جدید گوش کنم ,O O O O O ,Play_Music
+493, یه دونه  آژانس میخوام که برم  خونه ,O O O O O O B-Destination ,Catch_a_Cab
+494, یه دونه  پاستای آلفردو سفارش بده ,B-Number I-Number B-Food I-Food O O ,Order_Food
+495, جمعه بعد  درجه دما در  میلان  چقدره ,B-Date I-Date O O O B-Location O ,Get_Weather
+496, یه دونه  موسیقی از  استاد شجریان پخش کن ,O O O O B-Artist I-Artist O O ,Play_Music
+497, درجه دما  پریروز در  اصفهان  چند درجه فارنهایت بود ,O O B-Date O B-Location O O O O ,Get_Weather
+498,از  رستوران ایتالیایی  سه تا  چلوکباب سلطانی سفارش بده ,O B-Restaurant I-Restaurant B-Number I-Number B-Food I-Food O O ,Order_Food
+499, یه تاکسی میخوام تا من رو ببره  رستوران روسی ,O O O O O O O B-Destination I-Destination ,Catch_a_Cab
